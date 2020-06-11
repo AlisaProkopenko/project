@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    line-height: 1.74;
+}
+h1{
+    margin-left: 25%;
+}
+.task{
+    padding: 1%;
+    border: 2px solid rgb(177, 9, 135);
+    margin: 1%;
+}
+span{
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+p{
+    font-size: 1em;
+    
+}
+
+.otvet{
+    font-size: 1em;
+    font-style: italic;
+}
+
+.form > input {
+    padding: 8px;
+    cursor: pointer;
+    background: none;
+    border: 8px  rgb(177, 9, 135);
+    font-size: 1em;
+    font-style: italic;
+}
+
+.form > input {
+    margin-bottom: 16px;
+    font-style: italic;
+}
+
+.form > input {
+    width: 90%;
+}
+
+.form>.button{
+    display: flex;
+    font-style: italic;
+}
+
+.form > input, .button_1>button {
+    margin-right: 8px;
+    padding: 8px;
+    cursor: pointer;
+    background: none;
+    border: 2px solid  rgb(177, 9, 135);
+    font-size: 1em;;
+    color: rgb(17, 14, 218);
+    font-style: italic;
+}
